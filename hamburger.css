@@ -1,0 +1,60 @@
+.hamburger {
+    --bg-color: #efefef;
+    --line-size: 4px;
+    --line-color: #3d98c9;
+    --animation-time: 0.2s;
+    --width: 50px;
+    --height: 50px;
+    --padding: 10px;
+
+    display: inline-block;
+    width: var(--width);
+    height: var(--height);
+    position: relative;
+    background: var(--bg-color);
+    color: white;
+    cursor: pointer;
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: "";
+    display: inline-block;
+    width: calc(var(--width) - 2 * var(--padding));
+    margin: var(--padding);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.hamburger::before {
+    height: 9px;
+    border-top: var(--line-size) solid var(--line-color);
+    border-bottom: var(--line-size) solid var(--line-color);
+    transition: var(--animation-time) all;
+}
+
+.hamburger:hover::before {
+    border-bottom: none;
+    transform: rotate(45deg);
+    left: calc(var(--line-size));
+    width: calc(var(--width) - var(--padding));
+    top: 24px;
+    margin: 0;
+    height: 0;
+}
+
+.hamburger::after {
+    height: 27px;
+    border-bottom: var(--line-size) solid var(--line-color);
+    transition: var(--animation-time) all;
+}
+
+.hamburger:hover::after {
+    transform: rotate(-45deg);
+    left: calc(var(--line-size));
+    width: calc(var(--width) - var(--padding));
+    top: 24px;
+    margin: 0;
+    height: 0;
+}

@@ -12,10 +12,10 @@ Below you can how it works via GIF:
 
 ## Features
 
-* :checkered_flag: Use only one HTML tag
-* :checkered_flag: Use CSS Level 4
+* :white_check_mark: Use only one HTML tag
+* :white_check_mark: Use CSS Level 4
   * Use CSS Variables
-* :checkered_flag: Full customizable
+* :white_check_mark: Full customizable
 
 ## Installation
 

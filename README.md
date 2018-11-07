@@ -13,8 +13,7 @@ Below you can how it works via GIF:
 ## Features
 
 * :white_check_mark: Use only one HTML tag
-* :white_check_mark: Use CSS Level 4
-  * Use CSS Variables
+* :white_check_mark: Use CSS Level 4 (CSS Variables)
 * :white_check_mark: Full customizable
 
 ## Installation

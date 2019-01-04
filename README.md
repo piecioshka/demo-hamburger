@@ -2,11 +2,11 @@
 
 :fish: Concept of hamburger menu in pure CSS3 with CSS Variables
 
-## Demo
+## Demo 🎉
 
-Visit demo online: <https://piecioshka.github.io/hamburger/>
+<https://piecioshka.github.io/hamburger/>
 
-Below you can how it works via GIF:
+or below:
 
 ![](./demo.gif)
 

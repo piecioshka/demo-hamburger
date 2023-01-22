@@ -2,7 +2,7 @@
 
 :fish: Concept of hamburger menu in pure CSS3 with CSS Variables
 
-## Demo 🎉
+## Preview 🎉
 
 <https://piecioshka.github.io/concept-hamburger/>
 

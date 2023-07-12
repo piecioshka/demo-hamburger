@@ -1,6 +1,6 @@
 # demo-hamburger
 
-:fish: Concept of hamburger menu in pure CSS3 with CSS Variables
+🚁 Concept of hamburger menu in pure CSS3 with CSS Variables
 
 ## Preview 🎉
 

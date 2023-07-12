@@ -1,10 +1,10 @@
-# concept-hamburger
+# demo-hamburger
 
 :fish: Concept of hamburger menu in pure CSS3 with CSS Variables
 
 ## Preview 🎉
 
-<https://piecioshka.github.io/concept-hamburger/>
+<https://piecioshka.github.io/demo-hamburger/>
 
 or below:
 
